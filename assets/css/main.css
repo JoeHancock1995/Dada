@@ -18,9 +18,16 @@ html, body {
     padding: 0;
     margin: 0;
     overflow: hidden;
+    position:absolute;
 }
 
 #renderCanvas {
     width: 100%;
     height: 100%;
+}
+.video{
+     position:absolute;
+}
+.logo{
+    width: fit-content;
 }
