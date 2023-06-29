@@ -72,7 +72,50 @@ body{
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
+  body{       
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    /* position:absolute; */
+    background-color: black;
+  }
+  .logo{
+    position: absolute;
+    /* object-fit: contain;
+    width: 1rem;
+    height: 1rem; */
+  }
+  img.resize {
+    width:40%;
+    height: 40%;
+  }
+  .hours{
+    position: absolute;
+    margin-left: 45%;
+  }
+  .bgBox__video{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    transform: rotate(90deg) scale(2.5);
+    position:fixed;
+    /* transform: scaleY(5); */
+    z-index: -1;
+    top: 0;
 
+    overflow: hidden;
+  }
+  .video{
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* transform: scaleY(2.5); */
+  }
 }
 
 /* Small Devices, Tablets */
