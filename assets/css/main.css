@@ -11,6 +11,10 @@ body{
   .logo{
     position: absolute;
   }
+  img.resize{
+    width: 75%;
+    height: 75%;
+  }
   .hours{
     position: absolute;
     margin-left: 45%;
@@ -36,8 +40,8 @@ body{
         height: 1rem; */
       }
       img.resize {
-        width:50%;
-        height: 50%;
+        width:40%;
+        height: 40%;
       }
       .hours{
         position: absolute;
