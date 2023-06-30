@@ -10,6 +10,8 @@ body{
   }
   .logo{
     position: absolute;
+    margin-left: 1%;
+    margin-top: .5%;
   }
   /* img.resize{
     width: 75%;
@@ -36,6 +38,8 @@ body{
       }
       .logo{
         position: absolute;
+        margin-left: 1%;
+        margin-top: .5%;
         /* object-fit: contain;
         width: 1rem;
         height: 1rem; */
@@ -84,6 +88,8 @@ body{
   }
   .logo{
     position: absolute;
+    margin-left: 1%;
+    margin-top: .5%;
     /* object-fit: contain;
     width: 1rem;
     height: 1rem; */
@@ -91,6 +97,7 @@ body{
   img.resize {
     width:40%;
     height: 40%;
+    max-width: 100%;
   }
   .hours{
     position: absolute;
