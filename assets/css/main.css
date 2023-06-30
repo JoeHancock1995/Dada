@@ -144,3 +144,15 @@ body{
 video::-webkit-media-controls-start-playback-button {
   display: none !important;
 }
+
+video#videoElement::-webkit-media-controls, 
+video#videoElement::-webkit-media-controls-start-playback-button, 
+video#videoElement::-webkit-media-controls-play-button, 
+video#videoElement::-webkit-media-controls-panel, 
+video#videoElement::-webkit-media-controls-container, 
+video#videoElement::-webkit-media-controls-overlay-play-button, 
+video#videoElement::-webkit-media-controls-enclosure {
+  display: none !important;
+  -webkit-appearance: none;
+  opacity: 0 !important;
+}
