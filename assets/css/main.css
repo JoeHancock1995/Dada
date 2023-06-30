@@ -140,3 +140,7 @@ body{
 @media only screen and (min-width : 1200px) {
 
 }
+
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
