@@ -45,12 +45,12 @@ body{
         height: 1rem; */
       }
       img.resize {
-        width:60%;
-        height: 60%;
+        width:70%;
+        height: 70%;
       }
       .hours{
         position: absolute;
-        margin-left: 50%;
+        margin-left: 40%;
       }
       .bgBox__video{
         width: 100%;
@@ -95,8 +95,8 @@ body{
     height: 1rem; */
   }
   img.resize {
-    width:60%;
-    height: 60%;
+    width:70%;
+    height: 70%;
     max-width: 100%;
   }
   .hours{
